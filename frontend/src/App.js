@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
 import CourseDetails from './components/course/CourseList';
 import Login from './components/auth/Login';
+import Register from './components/auth/Register';
 
 // Function to check if the token exists
 const getToken = () => {
@@ -18,6 +19,7 @@ function App() {
         <Route path="/" element={token ? <CourseDetails /> : <Navigate to="/login" />} />
         {/* Route to Login component */}
         <Route path="/login" element={<Login />} />
+        <Route path="/Register" element={<Register />} />
       </Routes>
     </Router>
   );

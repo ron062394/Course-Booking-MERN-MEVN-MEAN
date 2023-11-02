@@ -1,17 +1,16 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
 
-const Login = () => {
+const Register = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
-  const handleLogin = () => {
-    // Implementation to handle login
+  const handleRegister = () => {
+    // Implementation to handle registration
   };
 
   return (
-    <div className="login-container">
-      <h2>Login</h2>
+    <div>
+      <h2>Register</h2>
       <input
         type="email"
         placeholder="Email"
@@ -24,10 +23,9 @@ const Login = () => {
         value={password}
         onChange={(e) => setPassword(e.target.value)}
       />
-      <button onClick={handleLogin}>Login</button>
-      <span>New student? <Link to="/register">Register here</Link></span>
+      <button onClick={handleRegister}>Register</button>
     </div>
   );
 };
 
-export default Login;
+export default Register;
