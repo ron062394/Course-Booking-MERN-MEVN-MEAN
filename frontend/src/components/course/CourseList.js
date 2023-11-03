@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
-const CourseDetails = () => {
+const CourseList = () => {
   const [courses, setCourses] = useState([]); // Initialize as an empty array
 
   useEffect(() => {
@@ -31,4 +31,4 @@ const CourseDetails = () => {
   );
 };
 
-export default CourseDetails;
+export default CourseList;
