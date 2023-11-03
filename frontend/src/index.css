@@ -24,11 +24,9 @@ ul {
 
 /* Styles for CourseDetails component */
 li {
-  background: #f9f9f9;
   border-radius: 5px;
   padding: 15px;
   margin: 10px 0;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 p {
@@ -37,7 +35,7 @@ p {
 }
 
 /* Hover effect */
-li:hover {
+.course-item:hover {
   background: #e9e9e9;
   transition: background 0.3s;
 }
@@ -118,9 +116,10 @@ button:hover {
   gap: 20px;
 }
 
-.nav-link {
-  color: #fff;
-  text-decoration: none;
+
+
+a {
+  color: #f9f9f9;
 }
 
 .nav-link:hover {
@@ -169,4 +168,38 @@ textarea {
 
 .submit-button:hover {
   background-color: #0056b3;
+}
+/* Example CSS for the CourseList component */
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  padding: 0;
+  justify-content: flex-end; /* Aligns items to the right */
+}
+
+.user-greeting {
+  margin-right: 20px; /* Adjust the spacing between user greeting and the logout button */
+}
+
+.logout-button button {
+  background-color: #414141;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.logout-button button:hover {
+  background-color: #bcbcbc;
+}
+
+/* Other styles for your course items can be added here */
+.course-item {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
