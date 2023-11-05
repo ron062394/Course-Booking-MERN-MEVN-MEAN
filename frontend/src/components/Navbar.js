@@ -15,7 +15,7 @@ const Navbar = () => {
           <Link to='/course-form'>Create Courses</Link>
         </li>
         <li>
-          <Link>Enroll Course</Link>
+          <Link>Enroll</Link>
         </li>
       </ul>
     </nav>
