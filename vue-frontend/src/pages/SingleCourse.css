@@ -1,0 +1,22 @@
+/* SingleCourse component styles */
+.single-course {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .single-course h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .single-course h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  
+  .single-course p {
+    margin-bottom: 5px;
+  }
+  

@@ -1,0 +1,15 @@
+.all-courses {
+    padding: 20px;
+  }
+  
+  .course-item {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .course-item h3 {
+    margin-top: 0;
+  }
+  
