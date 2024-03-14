@@ -17,6 +17,10 @@ app.use((req, res, next) => {
   next();
 });
 
+app.get('/', (req, res) => {
+  res.json('Hello')
+})
+
 // Routes
 app.use('/api/auth', require('./src/routes/authRoutes'));
 app.use('/api/courses', require('./src/routes/courseRoutes'));
