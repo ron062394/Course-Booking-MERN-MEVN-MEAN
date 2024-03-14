@@ -12,9 +12,9 @@
         <p>Loading...</p>
       </div>
     </div>
-  </template>
+</template>
   
-  <script>
+<script>
   export default {
     data() {
       return {

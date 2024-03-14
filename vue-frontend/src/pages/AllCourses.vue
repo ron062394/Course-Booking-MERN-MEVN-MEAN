@@ -19,7 +19,6 @@
 
 <script>
 export default {
-  name: 'AllCourses', 
   data() {
     return {
       courses: []
